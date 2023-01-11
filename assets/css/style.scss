@@ -264,3 +264,84 @@
         color: #fff;
     }
 }
+
+// responsive
+@media only screen and (max-width:1250px) {
+    .container {
+        .header {
+            &-top {
+                nav {
+                    display: none !important;
+                }
+                img {
+                    display: inline !important;
+                }
+            }
+        }
+    }
+    .container-memory {
+        padding: 0 2rem;
+    }
+    .container-great-foot {
+        .great {
+            &-top {
+                &-left {
+                    p {
+                        margin-bottom: 4rem;
+                    }
+                }
+            }
+            &-bottom {
+                &-left {
+                    p {
+                        margin-bottom: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container-memory {
+        margin: 0 2rem;
+        .memory {
+            &-left-side {
+                max-width: 100%;
+            }
+        }
+    }
+    .footer {
+        &-side {
+            &-left {
+                padding: 4rem 0;
+            }
+            &-right {
+                padding: 4rem 0;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .container {
+        .header {
+            &-center {
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .container-great-foot {
+        .great {
+            img {
+                max-width: 90%;
+            }
+        }
+    }
+}

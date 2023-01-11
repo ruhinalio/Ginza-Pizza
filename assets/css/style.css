@@ -211,4 +211,48 @@
 .container-memory .memory-right-side button:hover, .container-popular .popular-section .popular-bottom-side button:hover, .book-a-table .button-side button:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media only screen and (max-width: 1250px) {
+  .container .header-top nav {
+    display: none !important;
+  }
+  .container .header-top img {
+    display: inline !important;
+  }
+  .container-memory {
+    padding: 0 2rem;
+  }
+  .container-great-foot .great-top-left p {
+    margin-bottom: 4rem;
+  }
+  .container-great-foot .great-bottom-left p {
+    margin-bottom: 4rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container-memory {
+    margin: 0 2rem;
+  }
+  .container-memory .memory-left-side {
+    max-width: 100%;
+  }
+  .footer-side-left {
+    padding: 4rem 0;
+  }
+  .footer-side-right {
+    padding: 4rem 0;
+  }
+  .footer-side-right ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .container .header-center h3 {
+    font-size: 30px;
+  }
+  .container-great-foot .great img {
+    max-width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
