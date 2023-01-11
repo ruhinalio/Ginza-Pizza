@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -255,4 +256,11 @@
   .container-great-foot .great img {
     max-width: 90%;
   }
+}
+h2 {
+  font-family: "Caudex", serif;
+}
+
+.diff-font {
+  font-family: "Caudex", serif;
 }/*# sourceMappingURL=style.css.map */
