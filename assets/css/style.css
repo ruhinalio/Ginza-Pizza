@@ -232,6 +232,12 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .container .header-center h3 {
+    font-size: 30px;
+  }
+  .container-great-foot .great img {
+    max-width: 90%;
+  }
   .container-memory {
     margin: 0 2rem;
   }
@@ -247,14 +253,6 @@
   .footer-side-right ul {
     display: flex;
     flex-direction: column;
-  }
-}
-@media only screen and (max-width: 640px) {
-  .container .header-center h3 {
-    font-size: 30px;
-  }
-  .container-great-foot .great img {
-    max-width: 90%;
   }
 }
 h2 {
